@@ -3,19 +3,12 @@
 <html>
 <head>
 <title>Home</title>
-<link href="./common.css" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/common.css" />"
+	rel="stylesheet">
 </head>
 <body>
 	<h1>Diary</h1>
 	<div id="column">
-		<div id="title">
-			<div class="header">
-				<p>Title</p>
-			</div>
-			<div>
-				<p></p>
-			</div>
-		</div>
 		<div>
 			<div class="header">
 				<p>Date</p>
